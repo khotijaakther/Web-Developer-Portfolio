@@ -125,10 +125,32 @@ nav a{
     justify-content: flex-end;
 }
 /* main section styles */
+   main{
+      max-width: 1140px;
+      margin: 0 auto;
+   }
 /* about section styles */
    .about{
        padding: 130px;
        margin: 130px 0;
        border-radius: 10px;
        background-color: #FFF8F3;
+   }
+   .about-info-container{
+      display: flex;
+      justify-content: space-around;
+   }
+   .about-info{
+      text-align: center;
+      margin-top: 30px;
+   }
+   .info-title{
+    color:#757575;
+    font-size: 20px;
+    font-weight: 400;
+   }
+   .info-details{
+    color:#474747;
+    font-size: 16px;
+    font-weight: 600;
    }
